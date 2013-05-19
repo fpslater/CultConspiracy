@@ -9,16 +9,16 @@
 
 2) Responsive Design <br>
    -- Supports from 320x480 up to 1920x1080<br>
-   -- Not optimized for any particular width,<br> 
+   -- Not optimized for any particular width, 
       will continually re-centre based on how many images fit vertically <br>
 	  
 3) Loading Icon<br>
-   -- Only appears on initial page load,<br> 
+   -- Only appears on initial page load, 
       after that data is cached <br>
 	 
 4) 500px API request<br>
    -- API is accessed by using a 3rd party proxy and an access token<br>
-   -- No parameters specified, <br>
+   -- No parameters specified, 
       will bring back all available data "fresh_today" (default)  <br>
  
 Performance Hindrance--<br>
