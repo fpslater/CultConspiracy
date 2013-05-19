@@ -23,3 +23,5 @@ Performance Hindrance--
   A scrollbar may appear when cycling through categories. 
   This causes content to suddenly shift.  
 
+Technology--
+JQuery, Backbone.js, HTML5, CSS3
