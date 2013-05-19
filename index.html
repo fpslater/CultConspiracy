@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>CultConspiracy</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reactive.css">
+  <script src="vendors/js/jquery-min.js"></script>
+  <script src="vendors/js/underscore-min.js"></script>
+  <script src="vendors/js/backbone-min.js"></script>
+  <script src="vendors/js/proxy.js"></script>
+  <script src="js/cult.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/models.js"></script>
+  <script src="js/collections.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/templates.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function() {
+        $(Cult.init);
+      });
+  </script>
+</head>
+
+<body>
+  <div id="content">
+    <div class="header">
+      <h1><span>Cult</span>Conspiracy</h1>
+	  <div id="selector-panel">
+		<div class="title">Category</div>
+	  </div>
+    </div>
+	<img class="loading-img" src="images/spinner.gif" />
+    <div id="images"></div>
+  </div>
+</body>
+</html>
