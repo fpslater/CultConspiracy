@@ -1,29 +1,29 @@
-** Run this program by opening the index.html file in the base directory **
+** Run this program by opening the index.html file in the base directory **<br><br>
 
 
 
-1) Category Selector (top-right)
+1) Category Selector (top-right)<br>
    -- Populates categories based on which images are returned by API.<br>
-   -- To bring up categories list hover or click (for mobile browsers) 
-   -- "Uncategorized" category is equivalent to displaying all items
+   -- To bring up categories list hover or click (for mobile browsers)<br> 
+   -- "Uncategorized" category is equivalent to displaying all items<br>
 
-2) Responsive Design 
-   -- Supports from 320x480 up to 1920x1080
-   -- Not optimized for any particular width, 
-      will continually re-centre based on how many images fit vertically 
+2) Responsive Design <br>
+   -- Supports from 320x480 up to 1920x1080<br>
+   -- Not optimized for any particular width,<br> 
+      will continually re-centre based on how many images fit vertically <br>
 	  
-3) Loading Icon
-   -- Only appears on initial page load, 
-      after that data is cached 
+3) Loading Icon<br>
+   -- Only appears on initial page load,<br> 
+      after that data is cached <br>
 	 
-4) 500px API request
-   -- API is accessed by using a 3rd party proxy and an access token
-   -- No parameters specified, 
-      will bring back all available data "fresh_today" (default)  
+4) 500px API request<br>
+   -- API is accessed by using a 3rd party proxy and an access token<br>
+   -- No parameters specified, <br>
+      will bring back all available data "fresh_today" (default)  <br>
  
-Performance Hindrance--
-  A scrollbar may appear when cycling through categories. 
-  This causes content to suddenly shift.  
+Performance Hindrance--<br>
+  A scrollbar may appear when cycling through categories. <br>
+  This causes content to suddenly shift.  <br>
 
-Technology--
-JQuery, Backbone.js, HTML5, CSS3
+Technology--<br>
+JQuery, Backbone.js, HTML5, CSS3<br>
