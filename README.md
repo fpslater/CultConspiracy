@@ -1,6 +1,9 @@
+** Run this program by opening the index.html file in the base directory **
+
+
 
 1) Category Selector (top-right)
-   -- Populates categories based on which images are returned by API.
+   -- Populates categories based on which images are returned by API.<br>
    -- To bring up categories list hover or click (for mobile browsers) 
    -- "Uncategorized" category is equivalent to displaying all items
 
