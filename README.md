@@ -1,4 +1,3 @@
-** Features **
 
 1) Category Selector (top-right)
    -- Populates categories based on which images are returned by API.
