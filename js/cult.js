@@ -8,22 +8,23 @@ var Cult = {
     Cult.imagesCollection = new Cult.Collections.Images();
     Cult.viewPage();
     Cult.router = new Cult.Router();
-	
-	$('#selector-panel .title').mouseenter(function() {
-      $('.selectors-list').css('visibility', 'visible');
-	  $('.selectors-list').addClass('active');
+	var list = $('.selectors-list'),
+		title = $('#selector-panel .title');
+	title.mouseenter(function() {
+      list.css('visibility', 'visible');
+	  list.addClass('active');
     });
     $('#selector-panel').mouseleave(function() {
-      $('.selectors-list').css('visibility', 'hidden');
-	  $('.selectors-list').removeClass('active');
+      list.css('visibility', 'hidden');
+	  list.removeClass('active');
     });
-	$('#selector-panel .title').click(function() {
-      if ($('.selectors-list').hasClass('active')){
-        $('.selectors-list').css('visibility', 'hidden');
-	    $('.selectors-list').removeClass('active');
+	title.click(function() {
+      if (list.hasClass('active')){
+        list.css('visibility', 'hidden');
+	    list.removeClass('active');
 	  } else {
-        $('.selectors-list').css('visibility', 'visible');
-	    $('.selectors-list').addClass('active');
+        list.css('visibility', 'visible');
+	    list.addClass('active');
 	  }
     });
   },
@@ -42,6 +43,7 @@ var Cult = {
 		for (var i = 0; i < selectors.length; i++) {
 			selectorsList.append("<div class='selector' id='"+selectors[i]+"'>"+self.categories[selectors[i]]+"</div>");
 		}
+		$('#selector-panel .title').css('visibility', 'visible');
 		$('#0').addClass('selected');
 		$('.loading-img').addClass('remove');
 	});

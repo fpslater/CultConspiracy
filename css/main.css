@@ -42,7 +42,7 @@ body {
   text-align: right;
   float: right;
   margin-right: 10px;
-  margin-top: 12px
+  margin-top: 12px;
 }
 
 #selector-panel .title{
@@ -54,6 +54,7 @@ body {
   font-weight: bold;
   float: right;
   cursor: pointer;
+  visibility: hidden;
 }
 
 #selector-panel .selectors-list{
